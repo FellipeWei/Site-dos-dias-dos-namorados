@@ -1,0 +1,29 @@
+.gallery {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.gallery ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery ul li{
+  margin-left: 25px;
+}
+
+.gallery ul li:first-child{
+  margin-left: 0px;
+}
+
+.gallery ul li a img{
+  border:solid 6px white;
+  border-radius: 15px;
+}
+/* CSS para redimensionar todas as imagens da galeria */
+.gallery ul li a img {
+  width: 400px; /* Defina a largura desejada */
+  height: 250px; /* Defina a altura desejada */
+  object-fit: cover; /* Ajuste o conteúdo para preencher o contêiner sem distorção */
+  border-radius: 5px; /* Borda arredondada opcional */
+}
